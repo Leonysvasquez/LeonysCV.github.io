@@ -1,0 +1,294 @@
+@import url();
+
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins ',sans-serif;
+
+}
+
+body
+{  background:lightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.container
+{
+   position: relative;
+   width: 100%;
+   max-width: 1200px;
+   min-height: 1000px;
+   background: #fff;
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+
+.left_Side{
+    position: relative;
+    width: 320px;
+    max-width: 1000px;
+    min-height:1200px;
+    background:#003147;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    padding: 40px;
+    margin: 1px;
+}
+
+.Right_Side{
+    position: relative;
+    background:#fff;
+    padding: 40px;
+    width:auto;
+}
+img{
+
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid rgb(29, 35, 87);
+    border-radius: 100px;
+    display: flexbox;
+    flex: content;
+    align-items: center;
+    justify-content: center;
+    justify-content:center ;
+    align-content: center;
+    overflow: hidden;
+    object-fit: cover;
+    
+
+}
+
+
+
+h2{
+
+color: aliceblue;
+font-size:large;
+margin-top: 10px;
+text-transform:uppercase;
+text-align: center;
+font: weight 600px; 
+line-height: 1.4em;
+}
+
+h2 span{
+   color:white ;
+    font-size: large;
+    text-transform: none;
+    line-height: 1.4em;
+    
+}
+
+.linea{
+    color: aliceblue;
+    font-size:large;
+    margin-top: 10px;
+    text-transform:uppercase;
+    text-align: center;
+    font: weight 600px; 
+    line-height: 1.4em;
+    }
+
+.Contact{
+    padding-top: 40px;
+    color: aliceblue;
+    font-size:large;
+}
+
+title{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: large;
+    margin-bottom: 20px;
+
+}
+.Contact ul{
+    position: relative;
+}
+
+
+.Contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.Contact ul li .icon{
+    display: inline-block;
+    width: 30px; 
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.Contact ul li span{
+    color:#fff ;
+    font-weight: 300;
+
+}
+.Education li{
+    margin-bottom: 15px;
+}
+
+.Education h5{
+    color: #03a9f4;
+    font-weight: 500px ;
+   
+}
+
+.Education h4:ntg-child(2){
+    color: #fff;
+    font-weight: 500;
+   
+}
+.Education h4{
+    color: rgb(240, 219, 219);
+    font-weight: 300;
+   
+}
+
+
+.Languaje{
+    color: #fff;
+
+}
+
+.percent {
+    position:relative;
+    width:100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-bottom: 5px;
+    color: #ebeff1;
+
+}
+
+.title{
+    color: #003147;
+    text-align: start;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  
+}
+.text{
+    color: #fff;
+    font-weight: 300;
+}
+
+.percent div{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background: #03a9f4;
+
+}
+
+.about{
+    margin-bottom: 50px;
+}
+.about :last-child{
+    margin-bottom: 0px;
+}
+
+p{
+    color: #003147;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+#Asistente{
+    font-size: large;
+    text-transform: uppercase;
+    color: #003147;
+    padding: 25px;
+}
+
+.yearcompany{
+    font-size:  xx-large;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 1px 0;
+    padding: 1%;
+
+}
+
+.year_company{
+    min-width: 150px;
+   
+}
+.year_company h5{
+    text-transform: uppercase;
+    color:#1373a3 ;
+    font-weight: 600;
+}
+
+#Secretario{
+    text-transform: uppercase;
+    color: #003147;
+    font-size: 16px;
+
+}
+
+.box1{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+
+.box1 h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+
+}
+
+.percent1{
+    position: relative;
+    width:100%;
+    height: 10px;
+    background: #003147;
+    border-radius: 1px;
+  
+}
+
+.percent1 div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #03a9f4;
+}
+
+
+
